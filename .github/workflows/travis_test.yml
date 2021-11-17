@@ -8,5 +8,4 @@ jobs:
     steps:
       - name: ros_install_test
         run: |
-          cd pimouse_ros
-          bash -xve ./test/travis_ros_install.bash
+          ls
