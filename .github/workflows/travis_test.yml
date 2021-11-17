@@ -1,6 +1,6 @@
 name: travis_test
 
-on: push
+on: [push]
 
 jobs:
   build-linux:
