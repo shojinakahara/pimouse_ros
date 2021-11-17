@@ -1,0 +1,12 @@
+name: travis_test
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ros_install_test
+        run: |
+          roscd pimouse_ros
+          bash -xve ./test/travis_ros_install.bash
