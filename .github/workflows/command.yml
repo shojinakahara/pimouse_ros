@@ -3,7 +3,7 @@ name: workflow-name
 on: push
 
 jobs:
-  build:
+  build-linux:
     name: Greeting
     runs-on: ubuntu-18.04
     steps:
